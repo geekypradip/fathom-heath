@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  background-color: rgb(231, 234, 241);
+}
+.flex {
+  display: flex;
+}
+.width {
+  width: 90%;
+  margin: auto;
+}
+.container {
+  background-image: url("https://blog.fathomhealth.com/hubfs/assets2020/background.jpg");
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  background-size: cover;
+  /* background-image: linear-gradient(to right, #a37ded, #a6b6ff); */
+}
+.container > div:nth-child(1) {
+  color: rgb(250, 248, 248);
+  /* padding: 30px;*/
+  text-align: center;
+  padding-top: 8%;
+  /* margin-top: -100px; */
+  /* border: 1px solid red;*/
+  font-size: 80px;
+  /* background-image: linear-gradient(
+      linear-gradient(to right, #a37ded, #a6b6ff)
+    ); */
+}
+.container > div:nth-child(2) {
+  width: 50%;
+  margin: auto;
+  color: rgb(250, 248, 248);
+  /* padding: 30px;*/
+  text-align: center;
+  margin-top: 3%;
+  /* margin-top: -100px; */
+  /* border: 1px solid red; */
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.container > div:nth-child(3) {
+  margin-top: 5%;
+  /* height: 450px; */
+  /* border: 1px solid red; */
+  padding-bottom: 20px;
+  border-radius: 3px;
+}
+#contentainerChild3 {
+  flex-wrap: wrap;
+}
+.container > div:nth-child(3) > div {
+  flex: 50%;
+  /* border: 1px solid red; */
+}
+.container > div:nth-child(3) > div:nth-child(1) {
+  background-image: url("https://blog.fathomhealth.com/hubfs/future.jpg");
+  background-size: cover;
+}
+.container > div:nth-child(3) > div:nth-child(2) {
+  background-color: rgb(250, 248, 248);
+}
+.forPadding {
+  padding: 8%;
+}
+.forPadding > div:nth-child(1) {
+  color: rgb(95, 104, 114);
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.forPadding > div:nth-child(2) {
+  color: rgb(95, 104, 114);
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  font-size: 50px;
+  /* line-height: 24px; */
+  /* text-transform: uppercase; */
+}
+.forPadding > div:nth-child(2):hover {
+  color: black;
+}
+.forPadding > div:nth-child(3),
+.forPadding > div:nth-child(4) {
+  color: rgb(95, 104, 114);
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  font-size: 23px;
+  font-weight: bold;
+  /* line-height: 24px; */
+  /* text-transform: uppercase; */
+}
+.forPadding > div:nth-child(4) {
+  font-weight: normal;
+  margin-top: 5%;
+  /* border: 1px solid red; */
+}
+.forPadding > div:nth-child(4) > span {
+  color: #529ee6;
+}
+#contentainerChild4 > div {
+  margin: 2%;
+  font-size: 20px;
+  color: rgb(95, 104, 114);
+  font-weight: bold;
+  margin-top: 3%;
+}
+#contentainerChild5 {
+  flex-wrap: wrap;
+}
+#contentainerChild5 > div {
+  /* flex: 30%; */
+  /* width: 360px; */
+  flex-basis: 30%;
+  margin: 1.5%;
+  background-size: cover;
+  background-color: rgb(250, 248, 248);
+  padding-bottom: 3%;
+}
+#contentainerChild5 > div > img {
+  background-size: cover;
+  width: 100%;
+  height: 35%;
+}
+.forPadding > h1 {
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 30px;
+}
+.bottompadding {
+  padding-bottom: 5%;
+}
+#contentainerChild6 {
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+#contentainerChild6 > div {
+  text-align: center;
+  border: 4px solid #9a76d0;
+  color: #986cda;
+  /* width: 180px; */
+  margin: auto;
+  font-weight: bold;
+  display: inline-block;
+  padding: 17px 28px;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-transform: uppercase;
+  border-radius: 28px;
+}
+#contentainerChild7 {
+  background-color: white;
+  /* height: 300px; */
+  width: 100%;
+  padding-bottom: 8%;
+  padding-top: 3%;
+}
+#contentainerChild7 > div {
+  height: 50%;
+  /* border: 1px solid #000; */
+  padding-top: 5%;
+  /* background-color: rgb(58, 49, 49); */
+}
+#contentainerChild7 > div > div {
+  flex: 50%;
+
+  /* border: 1px solid rgb(182, 10, 10); */
+  /* background-color: rgb(58, 49, 49); */
+}
+#contentainerChild7 > div > div:nth-child(1) > div:nth-child(1) {
+  color: rgb(14, 15, 15);
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  font-size: 50px;
+  /* background-color: rgb(58, 49, 49); */
+}
+
+#contentainerChild7 > div > div > div:nth-child(2) {
+  color: rgb(93, 95, 95);
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  font-size: 35px;
+  /* background-color: rgb(58, 49, 49); */
+}
+#btnBox > div {
+  /* border: 1px solid red; */
+  width: 70%;
+  margin: auto;
+  margin-top: 8%;
+  border-radius: 50px;
+  background-color: #7759a3;
+}
+#btnBox > div > input {
+  flex: 60%;
+  border: none;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  /* border: 1px solid red; */
+  padding: 3.5%;
+  background: rgb(231, 234, 241);
+  text-align: center;
+}
+input,
+input::-webkit-input-placeholder {
+  font-size: 18px;
+}
+#btnBox > div > h3 {
+  margin: 0;
+  flex: 40%;
+  text-align: right;
+  padding: 3.5%;
+  background-color: #9a76d0;
+  /* height: 100%; */
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: #fff;
+}
+#btnBox > div > h3:hover {
+  border-radius: 50px;
+  color: rgb(226, 215, 215);
+}
+/* media queries for midium display */
+@media screen and (max-width: 950px) {
+  /* footer {
+    display: none;
+  } */
+  #contentainerChild5 > div {
+    /* flex: 46%; */
+    /* width: 320px; */
+    flex-basis: 46%;
+  }
+  #contentainerChild7 > div {
+    flex-direction: column;
+  }
+  #contentainerChild7 > div > div {
+    flex: 100%;
+
+    /* border: 1px solid rgb(182, 10, 10); */
+    /* background-color: rgb(58, 49, 49); */
+  }
+  /* #contentainerChild4 {
+    width: 100%;
+  } */
+  #contentainerChild4 > div {
+    flex: 15%;
+    margin: 1%;
+    font-size: 15px;
+  }
+}
+/* for small display */
+@media screen and (max-width: 750px) {
+  .container > div:nth-child(1) {
+    padding-top: 13%;
+  }
+  #contentainerChild5 > div {
+    flex: 98%;
+  }
+  .container > div:nth-child(3) > div {
+    flex: 100%;
+    /* border: 1px solid red; */
+  }
+  #contentainerChild3 {
+    flex-direction: column;
+  }
+  #contentainerChild7 > div {
+    flex-direction: column;
+  }
+  #contentainerChild7 > div > div {
+    flex: 100%;
+
+    /* border: 1px solid rgb(182, 10, 10); */
+    /* background-color: rgb(58, 49, 49); */
+  }
+  .container > div:nth-child(2) {
+    width: 100%;
+  }
+}

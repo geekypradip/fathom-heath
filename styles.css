@@ -1,0 +1,366 @@
+:root {
+  --primary-bg: #f3f5fb;
+}
+body {
+  margin: 0;
+}
+.hero {
+  background-image: url(https://assets.website-files.com/5e6c01bb5212506d6c119069/5e8115255836db2cd3bfd6b2_background.jpg);
+  background-size: cover;
+  /* height: 500px; */
+  padding-bottom: 3%;
+  padding-top: 70px;
+  max-width: 100%;
+}
+.container {
+  max-width: 75%;
+  margin: auto;
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+  font-family: "IBM Plex Serif", serif;
+}
+.container > h1 {
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+.container > p {
+  font-weight: 300;
+  margin: 40px;
+  font-family: "Barlow", sans-serif;
+  font-size: 30px;
+}
+.container > button {
+  background-color: white;
+  margin: auto;
+  color: #9a76d0;
+  letter-spacing: 2px;
+  font-weight: 700;
+  border-radius: 28px;
+  border: 0px;
+  margin-top: 0px;
+  height: 50px;
+  width: 25%;
+}
+.subheader {
+  background-color: #f3f5fb;
+  color: #6f8093;
+  height: 60px;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 400;
+  margin: 20px;
+}
+.subheader > a {
+  text-decoration: none;
+  color: #9a76d0;
+}
+.content-container {
+  text-align: center;
+  margin: 0 5%;
+  margin-top: 50px;
+}
+.services-cards-container {
+  /* margin: 0 10%; */
+  display: flex;
+  margin-bottom: 30px;
+}
+.card {
+  margin: 2.5%;
+}
+/* .services-cards-container p{
+  font-family: 'IBM Plex Sans',sans-serif;
+  color: #6f8093;
+  font-size: 18px;
+  line-height: 28px;
+} */
+.content-container > a {
+  padding: 15px 25px;
+  margin-top: 5rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  /* word-spacing: 3px; */
+  letter-spacing: 2px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 3px solid #9a76d0;
+  text-decoration: none;
+  color: #9a76d0;
+  border-radius: 50px;
+}
+.content {
+  height: 350px;
+  background-color: var(--primary-bg);
+}
+.faded-content-container {
+  display: flex;
+}
+.faded-content-container > div{
+  width: 33%;
+}
+.faded-content-container h1{
+  font-size: 90px;
+  font-family: 'Barlow',sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #6f8093;
+}
+.content h3{
+  padding-top: 50px;
+}
+.benefits {
+  text-align: center;
+  height: 1050px;
+  max-width: 100%;
+}
+h3 {
+  font-family: "IBM Plex Serif", sans-serif;
+  font-size: 48px;
+  color: #293240;
+  border: 1px #293240;
+  padding-bottom: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+.benefits > h6,
+.content-container > h6, .faded-content-container h6 {
+  color: #6f8093;
+  padding-top: 70px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.faded-content-container h6 {
+  padding-top: 0px;
+}
+.benefits > h5 {
+  color: #6f8093;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 100px;
+}
+.cards-container {
+  display: grid;
+  width: 85%;
+  margin: auto;
+  grid-template-rows: repeat(2, 300px);
+  /* box-sizing: border-box; */
+  /* grid-template-columns: repeat(3, 300px); */
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10%;
+}
+.benefits a {
+  padding: 15px 25px;
+  margin-top: 5rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 3px solid #9a76d0;
+  text-decoration: none;
+  color: #9a76d0;
+  border-radius: 50px;
+}
+.card > h6 {
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 14px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.card > h2 {
+  font-family: "Barlow", sans-serif;
+  color: #293240;
+}
+.card > p {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #6f8093;
+  line-height: 28px;
+  font-size: 18px;
+}
+.gray-section {
+  background-color: var(--primary-bg);
+}
+.gray-section > h3,
+.gray-section > h6 {
+  text-align: center;
+}
+.gray-section > h6 {
+  color: #6f8093;
+  font-family: "Barlow", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 30px;
+}
+/* adding css for cards  */
+#contentainerChild5 {
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+#contentainerChild5 > div {
+  flex: 30%;
+  /* width: 360px; */
+  margin: 1.5%;
+  background-size: cover;
+  background-color: white;
+  padding-bottom: 3%;
+}
+#contentainerChild5 > div > img {
+  background-size: cover;
+  width: 100%;
+  height: 35%;
+}
+.forPadding > h1 {
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 30px;
+}
+.bottompadding {
+  padding-bottom: 5%;
+}
+.flex {
+  display: flex;
+}
+.width {
+  width: 90%;
+  margin: auto;
+}
+
+.forPadding {
+  padding: 8%;
+}
+.forPadding > div:nth-child(1) {
+  color: rgb(95, 104, 114);
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.forPadding > div:nth-child(2) {
+  color: rgb(95, 104, 114);
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  font-size: 50px;
+  /* line-height: 24px; */
+  /* text-transform: uppercase; */
+}
+
+.forPadding > div:nth-child(3),
+.forPadding > div:nth-child(4) {
+  color: rgb(95, 104, 114);
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  font-size: 23px;
+  font-weight: bold;
+  /* line-height: 24px; */
+  /* text-transform: uppercase; */
+}
+/* end card style */
+.white-section {
+  background-color: white;
+}
+.quote {
+  display: flex;
+  height: 200px;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+}
+.buttons > div {
+  margin: 2rem;
+}
+.quote h3 {
+  font-size: 38px;
+}
+.quote a {
+  padding: 15px 25px;
+  margin-top: 5rem;
+  font-family: "IBM Plex Serif", sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 3px solid #9a76d0;
+  text-decoration: none;
+  color: #9a76d0;
+  border-radius: 50px;
+}
+.buttons > div:nth-child(2) a {
+  background-color: #9a76d0;
+  color: white;
+}
+@media screen and (max-width: 991px) {
+  .subheader {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .quote,
+  .buttons {
+    flex-direction: column;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .container > button {
+    width: 70%;
+  }
+  .services-cards-container {
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+  }
+  .content-container > a {
+    padding-right: 30%;
+    padding-left: 30%;
+  }
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .benefits {
+    height: max-content;
+    margin-bottom: 70px;
+  }
+  .benefits > a {
+    padding-right: 30%;
+    padding-left: 30%;
+  }
+  .quote a {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .faded-content-container{
+    flex-direction: column;
+  }
+  .faded-content-container > div{
+    width: 50%;
+    margin: auto;
+  }
+  .content{
+    height: max-content;
+  }
+}
+@media screen and (max-width: 479px){
+  .quote a{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}

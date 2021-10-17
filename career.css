@@ -1,0 +1,50 @@
+
+#box{
+  margin: 10px 30px;
+  padding: 30px;
+}
+.opening{
+    margin-bottom: 25px;
+}
+a {
+    text-decoration: none;
+    color: #2975CA;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottom-box{
+    display: grid;
+    grid-gap: 0px;
+    border-top: solid 1px #ccc;
+    background-color: #eee;
+    grid-template-rows: 50px 50px;
+}
+.bottom-box > div{
+    text-align: center;
+    font-size: 12px;
+   /* line-height: 3em;*/
+    padding-bottom: 0px;
+}
+#logo > img{
+    width:200px;
+    height:34px;
+}
+img{
+    width:100px;
+    height:30px;
+}
+.privacy-policy{
+    font-size: 10px;
+}
+.bottom-box > a{
+    font-size: 10px;
+}
+@media  screen and (max-width:650px){
+    .bottom-box{
+        grid-template-rows: auto auto;
+    }
+    #box{
+        margin: 0px;
+        padding:0px;
+    }
+}

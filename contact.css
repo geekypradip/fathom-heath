@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+.flex {
+  display: flex;
+}
+.width {
+  width: 90%;
+  margin: auto;
+}
+.header {
+  background-image: url("https://blog.fathomhealth.com/hubfs/assets2020/background.jpg");
+  width: 100%;
+  /* height: 600px; */
+  padding-bottom: 8%;
+  margin: 0;
+  background-size: cover;
+  /* background-image: linear-gradient(to right, #a37ded, #a6b6ff); */
+}
+.header > div:nth-child(1) {
+  color: #fff;
+  padding-top: 8%;
+
+  font-family: "IBM Plex Serif", serif;
+  font-size: 78px;
+  line-height: 120%;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.header > div:nth-child(2) {
+  font-family: Barlow, sans-serif, serif;
+  line-height: 37px;
+  font-weight: normal;
+  color: #fff;
+  font-size: 30px;
+  width: 50%;
+  margin: auto;
+  padding-top: 3%;
+  text-align: center;
+}
+.container {
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+/* .container > div {
+  border: 1px solid rgba(179, 56, 179, 0.979); */
+/* height: 600px;
+} */
+.formPart {
+  flex: 62%;
+  /* margin: 5%; */
+  /* border: 1px solid rgba(179, 56, 179, 0.979); */
+}
+.textPart {
+  flex: 32%;
+  /* margin: 5%; */
+  /* border: 1px solid rgba(179, 56, 179, 0.979); */
+}
+.emptyPart {
+  flex: 6%;
+}
+.formPart > div:nth-child(1) {
+  font-family: "IBM Plex Serif", sans-serif;
+  color: #000;
+  font-size: 45px;
+}
+.formPart > div:nth-child(2) {
+  font-size: 30px;
+  color: #6f8093;
+  margin-top: 10px;
+}
+.formPart > p {
+  font-family: IBM Plex Sans;
+  font-size: 17px;
+  color: rgb(34, 33, 33);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.formPart > input {
+  width: 99%;
+  border: none;
+  border-bottom: 3px solid #cad5e2;
+  height: 30px;
+}
+.formPart > textarea {
+  width: 99%;
+  border: none;
+  border-bottom: 3px solid #65a3e9;
+  height: 60px;
+  background-color: #f5f8fa;
+}
+.formPart > p > span {
+  color: red;
+}
+#check {
+  /* all: initial; */
+  /* border: 1px solid red; */
+
+  width: 15px;
+  height: 15px;
+  margin-top: 20px;
+}
+.btn {
+  background: #9d6ae9;
+  border-color: #9f75dd;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: IBM Plex Sans;
+  width: 60px;
+  margin-top: 3%;
+  padding: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.textPart > div:nth-child(1),
+.textPart > div:nth-child(4),
+.container3 > div > div:nth-child(2) {
+  font-size: 27px;
+  color: #0d0d0e;
+  font-family: Barlow, sans-serif;
+}
+.textPart > div:nth-child(2),
+.textPart > div:nth-child(5),
+.container2 > div:nth-child(1) > div:nth-child(2),
+.container3 > div > div:nth-child(3) {
+  font-size: 20px;
+  font-family: Barlow, sans-serif;
+  color: #6f8093;
+  margin-top: 15px;
+}
+.textPart > div:nth-child(3),
+.textPart > div:nth-child(6) {
+  font-family: "IBM Plex Sans", sans-serif;
+  letter-spacing: 1px;
+  color: #9d6ae9;
+  font-size: 14px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+.textPart > div:nth-child(4) {
+  margin-top: 10%;
+}
+.textPart > div:nth-child(7) {
+  margin-top: 8%;
+  text-align: center;
+  /* border: 1px solid black; */
+  height: 600px;
+}
+.textPart > div:nth-child(7) > img {
+  height: 90%;
+  width: 300px;
+}
+.container2 {
+  background-color: #f3f5fb;
+  color: #6f8093;
+  /* height: 300px; */
+  padding-bottom: 8%;
+}
+/* .container2 > div {
+  border: 1px solid rgba(179, 56, 179, 0.979);
+  padding-top: 8%;
+} */
+.container2 > div:nth-child(1) > div:nth-child(1) {
+  border: 1px solid rgba(146, 179, 56, 0.979);
+  padding-top: 8%;
+  border: 1px #293240;
+  font-family: "IBM Plex Serif", sans-serif;
+  color: #293240;
+  font-size: 45px;
+  line-height: 125%;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0.01em;
+}
+.container2 > div:nth-child(1) > div:nth-child(2) > span {
+  color: #9d6ae9;
+}
+.container3 {
+  width: 85%;
+  margin: auto;
+  /* border: 1px solid rgba(79, 56, 179, 0.979); */
+  padding-top: 7%;
+  flex-wrap: wrap;
+}
+.container3 > div {
+  /* border: 1px solid rgba(101, 179, 56, 0.979); */
+  flex: 25%;
+  text-align: left;
+}
+.container3 > div > img {
+  width: 100px;
+}
+.container3 > div > div:nth-child(2) {
+  margin-top: 10px;
+}
+/* added media query */
+@media screen and (max-width: 950px) {
+  /* footer {
+    display: none;
+  } */
+  .container > div:nth-child(1) {
+    flex-direction: column;
+    /* background-color: #9f75dd; */
+    /* border: 1px solid red; */
+  }
+  /* .emptyPart {
+    display: none;
+  } */
+  .container > div:nth-child(1) > div {
+    padding-top: 20px;
+    /* border: 1px solid red; */
+  }
+  .header > div:nth-child(2) {
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+  }
+  .header > div:nth-child(1) {
+    padding-top: 13%;
+    font-size: 68px;
+    /* border: 1px solid red; */
+  }
+  .container3 > div {
+    /* border: 1px solid rgba(101, 179, 56, 0.979); */
+    flex: 25%;
+    margin: 20px;
+    /* border: 1px solid red; */
+  }
+  .textPart > div:nth-child(4) {
+    margin-top: 10px;
+    /* border: 1px solid red; */
+  }
+  .formPart,
+  .textPart {
+    flex: 90%;
+    /* border: 1px solid red; */
+  }
+}
