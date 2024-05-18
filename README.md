@@ -32,6 +32,6 @@ https://fathomhealth.com Clone
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
   
 <h2> website Link</h2>
-https://geeksblogs.000webhostapp.com/fathom-health/
+https://geekypradip.github.io/fathom-heath/
 <h2> Blog Link </h2>
 https://medium.com/@join2me.pm/cloning-of-fathomhealth-com-b6181b2a2022
